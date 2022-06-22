@@ -23,12 +23,12 @@ public class Book {
         return this.author;
     }
 
-    public int getYear() {
+    public int getYearPublications() {
         return this.yearPublications;
     }
 
-    public void setYearPublication(int yearPublication) {
-        this.yearPublications = yearPublication;
+    public void setYearPublication(int yearPublications) {
+        this.yearPublications = yearPublications;
     }
 
 }
